@@ -10,6 +10,8 @@ Used browser: Microsoft Edge version 113.0.1774.50
 
 Please note that it has been tested only under Edge browser version 113.0.1774.50. I added ChromeDriver version 113.0.5672.63 in drivers folder on the project. The set property should be changed for this driver. 
 
+!!!Note!!! External library selenium standalone server should be added to the project structure. I have added the jar file in lib folder. 
+
 File organization: 
 src/test/java/ApiTests/tests: Contains the Api tests; 
 src/test/java/ApiTests/runners: Contains the test runner file for api tests; 
